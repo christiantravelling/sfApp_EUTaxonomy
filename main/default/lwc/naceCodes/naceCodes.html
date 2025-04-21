@@ -1,0 +1,8 @@
+<template>
+    <div class="slds-theme_default">
+        <lightning-tree items={items} header=""></lightning-tree>
+    </div>    
+    <template if:true={naceEvent.data}>
+        {naceEvent.data}
+    </template>
+</template>

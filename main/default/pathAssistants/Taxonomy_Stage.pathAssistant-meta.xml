@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>EU_Taxonomy_Disclosure__c</entityName>
+    <fieldName>Stage__c</fieldName>
+    <masterLabel>Taxonomy_Stage</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Examine the relationship graph, expand as necessary, to show the link between the Disclosure, Business, Eligible and Aligned activities.&lt;/p&gt;&lt;p&gt;You can modify any the KPIs by editing the underlying &amp;#39;&lt;em&gt;Business Activity&amp;#39;&lt;/em&gt; records (Business, Economic Eligible/Aligned).&lt;/p&gt;&lt;p&gt;When happy click &amp;#39;Confirm&amp;#39; to move to the next stage.&lt;/p&gt;</info>
+        <picklistValueName>Confirm Aligned</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Identify the business activities which need to be considered for this undertaking/entity.&lt;/p&gt;&lt;p&gt;This largely will be done outside of Salesforce. Through internal stakeholder interview, business process modelling and consulting financial accounts. &lt;/p&gt;&lt;p&gt;As a quick aid the NACE classification of activities is included on the right hand screen section. You can explore these activities through the hierarchical tree and add any to this assessment but using the quick action button on the top right of the actual NACE record.&lt;/p&gt;</info>
+        <picklistValueName>Identify</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Once you have a selection of business activities, explore possible eligibility mappings to the EU taxonomy Environmental Objectives and Economic Activities as defined by the &lt;a href=&quot;https://finance.ec.europa.eu/regulation-and-supervision/financial-services-legislation/implementing-and-delegated-acts/taxonomy-regulation_en&quot; target=&quot;_blank&quot;&gt;delegated and implementing acts&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Various methods for this mapping are exposed here, including manual mapping or using a basic matching technique based on the NACE code.&lt;/p&gt;&lt;p&gt;Once mapped update the KPIs selected in the &amp;#39;&lt;em&gt;Welcome Stage&lt;/em&gt;&amp;#39; in absolute values, so that each eligible activity has valid financial KPI.&lt;/p&gt;</info>
+        <picklistValueName>Map</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;For each relevant Environmental Objective, assign the percentage of the eligible KPIs entered in the last section, that satisfy the &amp;#39;Significant Contribution&amp;#39; criteria of the taxonomy. &lt;/p&gt;&lt;p&gt;Ensure that this aligned activity &amp;#39;&lt;em&gt;Does No Significant Harm&lt;/em&gt;&amp;#39; (DNSH) to the other 5 environmental objectives.&lt;/p&gt;&lt;p&gt;Ensure that an undertaking level you satisfy the &amp;#39;&lt;em&gt;Minimum Standards&lt;/em&gt;&amp;#39;&lt;/p&gt;</info>
+        <picklistValueName>Screen</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;This is the beginning of the EU &lt;a href=&quot;https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en#legislation&quot; target=&quot;_blank&quot;&gt;Taxonomy&lt;/a&gt; alignment process.&lt;/p&gt;&lt;p&gt;Select the financial KPIs (turnover, capex, opex) you wish to align for this undertaking (Account, Program Initiative etc)&lt;/p&gt;&lt;p&gt;At least one of these KPIs need to be selected.&lt;/p&gt;</info>
+        <picklistValueName>Welcome</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

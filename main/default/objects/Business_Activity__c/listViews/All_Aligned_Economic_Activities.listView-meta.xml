@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Aligned_Economic_Activities</fullName>
+    <columns>NAME</columns>
+    <columns>Name__c</columns>
+    <columns>Parent_Business_Activity__c</columns>
+    <columns>Environmental_Objective__c</columns>
+    <columns>Linked_Economic_Activity__c</columns>
+    <columns>EU_Taxonomy_Disclosure__c</columns>
+    <columns>Aligned_Turnover__c</columns>
+    <columns>Aligned_Capex_A__c</columns>
+    <columns>Aligned_Capex_B__c</columns>
+    <columns>Aligned_Capex_C__c</columns>
+    <columns>Aligned_Opex_A__c</columns>
+    <columns>Aligned_Opex_B__c</columns>
+    <columns>Aligned_Opex_C__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>Economic</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Aligned</value>
+    </filters>
+    <label>All Aligned Economic Activities</label>
+</ListView>

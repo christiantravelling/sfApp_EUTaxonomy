@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector__c</fullName>
+    <description>Parent EU Taxonomy Sector</description>
+    <inlineHelpText>Parent EU Taxonomy Sector</inlineHelpText>
+    <label>Sector</label>
+    <referenceTo>Taxonomy_Sectors__c</referenceTo>
+    <relationshipLabel>Economic Activities</relationshipLabel>
+    <relationshipName>Economic_Activities</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

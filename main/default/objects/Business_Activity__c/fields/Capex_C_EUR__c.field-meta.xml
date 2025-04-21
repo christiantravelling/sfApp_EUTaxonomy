@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capex_C_EUR__c</fullName>
+    <description>Type C: Related to the purchase of output from Taxonomy-aligned economic activities and individual measures enabling the target activities to become low-carbon or to lead to greenhouse gas reductions, provided that such measures are implemented and operational within 18 months (where turnover is not eligible nor aligned).</description>
+    <inlineHelpText>Type C: Related to the purchase of output from Taxonomy-aligned economic activities and individual measures enabling the target activities to become low-carbon or to lead to greenhouse gas reductions, provided that such measures are implemented and operational within 18 months (where turnover is not eligible nor aligned).</inlineHelpText>
+    <label>Capex C</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

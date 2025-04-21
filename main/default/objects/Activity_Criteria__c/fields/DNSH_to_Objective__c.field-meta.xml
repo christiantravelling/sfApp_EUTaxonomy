@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DNSH_to_Objective__c</fullName>
+    <label>DNSH to Objective</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Climate adaptation</fullName>
+                <default>true</default>
+                <label>Climate adaptation</label>
+            </value>
+            <value>
+                <fullName>Climate mitigation</fullName>
+                <default>false</default>
+                <label>Climate mitigation</label>
+            </value>
+            <value>
+                <fullName>Biodiversity</fullName>
+                <default>false</default>
+                <label>Biodiversity</label>
+            </value>
+            <value>
+                <fullName>Pollution prevention</fullName>
+                <default>false</default>
+                <label>Pollution prevention</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+            <value>
+                <fullName>Circular economy</fullName>
+                <default>false</default>
+                <label>Circular economy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

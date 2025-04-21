@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelationshipGraphDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isActive>true</isActive>
+    <isTemplate>false</isTemplate>
+    <masterLabel>EUTax and Activity</masterLabel>
+    <relationshipGraphDefVersions>
+        <graphDefinition>{
+  &quot;graph&quot; : {
+    &quot;rootNode&quot; : {
+      &quot;id&quot; : &quot;53ec2334-a2bf-47db-8e2c-79b962206d22&quot;,
+      &quot;object&quot; : {
+        &quot;entity&quot; : &quot;EU_Taxonomy_Disclosure__c&quot;
+      },
+      &quot;configurationType&quot; : &quot;Primary&quot;,
+      &quot;nodeUiConfig&quot; : {
+        &quot;label&quot; : &quot;EU_Taxonomy_Disclosure__c&quot;,
+        &quot;fieldsToDisplay&quot; : [ ],
+        &quot;showFieldLabels&quot; : true,
+        &quot;actions&quot; : { },
+        &quot;isAnchorNode&quot; : true
+      },
+      &quot;childRelationships&quot; : [ {
+        &quot;OneToMany&quot; : {
+          &quot;targetObjectNode&quot; : {
+            &quot;sortFields&quot; : [ {
+              &quot;field&quot; : {
+                &quot;field&quot; : &quot;LastModifiedDate&quot;,
+                &quot;whichEntity&quot; : &quot;TARGET&quot;
+              },
+              &quot;order&quot; : &quot;DESC&quot;
+            } ],
+            &quot;id&quot; : &quot;118dcd38-b4b7-48f3-9d94-b848a31e6bf8&quot;,
+            &quot;object&quot; : {
+              &quot;entity&quot; : &quot;Business_Activity__c&quot;
+            },
+            &quot;configurationType&quot; : &quot;Primary&quot;,
+            &quot;nodeUiConfig&quot; : {
+              &quot;label&quot; : &quot;Business Activities&quot;,
+              &quot;recordActionsLabel&quot; : &quot;&quot;,
+              &quot;isAnchorNode&quot; : false,
+              &quot;fieldsToDisplay&quot; : [ {
+                &quot;field&quot; : &quot;Name__c&quot;,
+                &quot;whichEntity&quot; : &quot;TARGET&quot;
+              } ],
+              &quot;showFieldLabels&quot; : true,
+              &quot;actions&quot; : {
+                &quot;containerActions&quot; : [ ],
+                &quot;recordActions&quot; : [ ]
+              }
+            },
+            &quot;childRelationships&quot; : [ {
+              &quot;OneToMany&quot; : {
+                &quot;targetObjectNode&quot; : {
+                  &quot;sortFields&quot; : [ {
+                    &quot;field&quot; : {
+                      &quot;field&quot; : &quot;LastModifiedDate&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    },
+                    &quot;order&quot; : &quot;DESC&quot;
+                  } ],
+                  &quot;id&quot; : &quot;2f48ba80-54ab-45cb-b090-21e1241c89b3&quot;,
+                  &quot;object&quot; : {
+                    &quot;entity&quot; : &quot;Business_Activity__c&quot;
+                  },
+                  &quot;configurationType&quot; : &quot;Custom&quot;,
+                  &quot;nodeUiConfig&quot; : {
+                    &quot;label&quot; : &quot;Aligned Activities&quot;,
+                    &quot;recordActionsLabel&quot; : &quot;&quot;,
+                    &quot;isAnchorNode&quot; : false,
+                    &quot;fieldsToDisplay&quot; : [ {
+                      &quot;field&quot; : &quot;Name__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    }, {
+                      &quot;field&quot; : &quot;Environmental_Objective__r.Name&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    }, {
+                      &quot;field&quot; : &quot;Aligned_Turnover__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    }, {
+                      &quot;field&quot; : &quot;Aligned_Capex_A__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    } ],
+                    &quot;showFieldLabels&quot; : true,
+                    &quot;actions&quot; : {
+                      &quot;containerActions&quot; : [ ],
+                      &quot;recordActions&quot; : [ ]
+                    }
+                  },
+                  &quot;childRelationships&quot; : [ ]
+                },
+                &quot;relationshipUiConfig&quot; : { },
+                &quot;filter&quot; : {
+                  &quot;filterCriteria&quot; : [ {
+                    &quot;field&quot; : {
+                      &quot;field&quot; : &quot;Type__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    },
+                    &quot;operator&quot; : &quot;eq&quot;,
+                    &quot;value&quot; : &quot;Economic&quot;
+                  }, {
+                    &quot;field&quot; : {
+                      &quot;field&quot; : &quot;Status__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    },
+                    &quot;operator&quot; : &quot;eq&quot;,
+                    &quot;value&quot; : &quot;Aligned&quot;
+                  } ],
+                  &quot;booleanFilter&quot; : &quot;1 AND 2&quot;
+                },
+                &quot;targetObjectField&quot; : {
+                  &quot;field&quot; : &quot;Parent_Business_Activity__c&quot;,
+                  &quot;whichEntity&quot; : &quot;TARGET&quot;
+                }
+              }
+            }, {
+              &quot;OneToMany&quot; : {
+                &quot;targetObjectNode&quot; : {
+                  &quot;sortFields&quot; : [ {
+                    &quot;field&quot; : {
+                      &quot;field&quot; : &quot;LastModifiedDate&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    },
+                    &quot;order&quot; : &quot;DESC&quot;
+                  } ],
+                  &quot;id&quot; : &quot;c2e4337b-90e8-4849-97c9-c1c05c4f091c&quot;,
+                  &quot;object&quot; : {
+                    &quot;entity&quot; : &quot;Business_Activity__c&quot;
+                  },
+                  &quot;configurationType&quot; : &quot;Custom&quot;,
+                  &quot;nodeUiConfig&quot; : {
+                    &quot;label&quot; : &quot;Eligible Activities&quot;,
+                    &quot;recordActionsLabel&quot; : &quot;&quot;,
+                    &quot;isAnchorNode&quot; : false,
+                    &quot;fieldsToDisplay&quot; : [ {
+                      &quot;field&quot; : &quot;Name__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    }, {
+                      &quot;field&quot; : &quot;Turnover_EUR__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    }, {
+                      &quot;field&quot; : &quot;Capex_A_EUR__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    }, {
+                      &quot;field&quot; : &quot;Opex_A_EUR__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    } ],
+                    &quot;showFieldLabels&quot; : true,
+                    &quot;actions&quot; : {
+                      &quot;containerActions&quot; : [ ],
+                      &quot;recordActions&quot; : [ ]
+                    }
+                  },
+                  &quot;childRelationships&quot; : [ ]
+                },
+                &quot;relationshipUiConfig&quot; : { },
+                &quot;filter&quot; : {
+                  &quot;filterCriteria&quot; : [ {
+                    &quot;field&quot; : {
+                      &quot;field&quot; : &quot;Type__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    },
+                    &quot;operator&quot; : &quot;eq&quot;,
+                    &quot;value&quot; : &quot;Economic&quot;
+                  }, {
+                    &quot;field&quot; : {
+                      &quot;field&quot; : &quot;Status__c&quot;,
+                      &quot;whichEntity&quot; : &quot;TARGET&quot;
+                    },
+                    &quot;operator&quot; : &quot;eq&quot;,
+                    &quot;value&quot; : &quot;Eligible&quot;
+                  } ],
+                  &quot;booleanFilter&quot; : &quot;1 AND 2&quot;
+                },
+                &quot;targetObjectField&quot; : {
+                  &quot;field&quot; : &quot;Parent_Business_Activity__c&quot;,
+                  &quot;whichEntity&quot; : &quot;TARGET&quot;
+                }
+              }
+            } ]
+          },
+          &quot;relationshipUiConfig&quot; : { },
+          &quot;filter&quot; : {
+            &quot;filterCriteria&quot; : [ {
+              &quot;field&quot; : {
+                &quot;field&quot; : &quot;Type__c&quot;,
+                &quot;whichEntity&quot; : &quot;TARGET&quot;
+              },
+              &quot;operator&quot; : &quot;eq&quot;,
+              &quot;value&quot; : &quot;Business&quot;
+            } ],
+            &quot;booleanFilter&quot; : &quot;1&quot;
+          },
+          &quot;targetObjectField&quot; : {
+            &quot;field&quot; : &quot;EU_Taxonomy_Disclosure__c&quot;,
+            &quot;whichEntity&quot; : &quot;TARGET&quot;
+          }
+        }
+      } ]
+    },
+    &quot;globalUiConfig&quot; : {
+      &quot;allowRuntimeCustomizations&quot; : false
+    }
+  }
+}</graphDefinition>
+        <graphType>HorizontalHierarchy</graphType>
+    </relationshipGraphDefVersions>
+</RelationshipGraphDefinition>

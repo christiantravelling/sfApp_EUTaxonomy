@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capex_A_EUR__c</fullName>
+    <description>Type A: related to assets or processes that are associated with Taxonomy-aligned economic activities (where turnover is aligned)</description>
+    <inlineHelpText>The Capex KPI is defined as the share of Taxonomy-aligned capital expenditures (Capex) in the numerator, divided into three categories (a – c) as defined in the Disclosures Delegated Act, divided by the total Capex (in the denominator).
+Type A: related to assets or processes that are associated with Taxonomy-aligned economic activities (where turnover is aligned)</inlineHelpText>
+    <label>Capex A</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

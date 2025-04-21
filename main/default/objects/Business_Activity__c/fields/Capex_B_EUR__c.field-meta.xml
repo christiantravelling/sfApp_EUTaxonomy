@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Capex_B_EUR__c</fullName>
+    <description>Type B: part of a plan to expand Taxonomy-aligned economic activities or to allow Taxonomy-eligible economic activities to become Taxonomy-aligned under conditions specified in the Delegated Act (where turnover is eligible but not aligned)</description>
+    <inlineHelpText>Type B: part of a plan to expand Taxonomy-aligned economic activities or to allow Taxonomy-eligible economic activities to become Taxonomy-aligned under conditions specified in the Delegated Act (where turnover is eligible but not aligned)</inlineHelpText>
+    <label>Capex B</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

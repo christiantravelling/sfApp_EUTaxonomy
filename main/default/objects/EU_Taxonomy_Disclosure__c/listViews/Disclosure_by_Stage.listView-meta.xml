@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disclosure_by_Stage</fullName>
+    <columns>NAME</columns>
+    <columns>Program_Initiative__c</columns>
+    <columns>Account__c</columns>
+    <columns>Turnover__c</columns>
+    <columns>Capex_EUR__c</columns>
+    <columns>Opex_EUR__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Disclosure by Stage</label>
+</ListView>
